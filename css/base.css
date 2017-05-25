@@ -267,12 +267,20 @@ container {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* footer css*/
+/* footer */
 
 .footer {
     background-color: slategray;
     color:white;
+    width: 100%;
 }
+
+#opsomming {
+    text-decoration: none;
+}
+
+
+
 /* button homepage */
 #myBtn {
   display: none;
