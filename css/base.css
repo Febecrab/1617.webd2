@@ -41,6 +41,10 @@ body a {
 	padding-top:90px;
  }
 
+ #creator img {
+	 width: 100%;
+ }
+
 .cirkel {
 	text-align: center; 
 	padding: 53px;
