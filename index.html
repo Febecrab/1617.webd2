@@ -51,7 +51,9 @@
 	<link rel="stylesheet" media="all" href="css/base.css">
 	<link rel="stylesheet" media="all" href="css/nav.css">
 	<link rel="stylesheet" media="all" href="css/helpers.css">
-	<link rel="stylesheet" media="all" href="js/main.js">
+
+	<!--javascript-->
+	<script language="JavaScript" src="js/main.js"></script>
 
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
@@ -60,6 +62,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   </head>
 <body>
+
+
+
 
 	<div class="grid__wrapper">
 		<div class="grid__container">
@@ -175,23 +180,23 @@
 							<br>
 							Wij staan te popelen u een antwoord te geven op
 							<br>
-							zo wel online als offline vlak!
+							zowel online als offline vlak!
 								<br><br>
-							Ons team is klein beetje perfectionistisch die u alleen
+							Ons team is een klein beetje perfectionistisch, maar dit
 							<br>
-							maar het beste resultaat willen leveren. 
+							 zal u alleen maar het beste resultaat leveren.
 							<br>
-							Efficient, creatief, doorzettend, 
+							Efficiënt, creatief, doorzettend, 
 							<br>
 							millieuvriendelijk (ja hoor! wij denken zeker aan het millieu) , luisterend oor,.. 
 							<br>
 							wij zijn het allemaal!
 								<br><br>
-							Dus kom op en laat u horen!  Wij zouden graag naar u idee luisteren!  
+							Dus kom op en laat u horen!  Wij zouden graag naar uw idee luisteren!  
 							<br><br>
 							Nu al een bom van ideeën die u absoluut 
 							<br>
-							wil delen en wij hebben u al volledig overtuigd? ``
+							wil delen doorat we u volledig overtuigd hebben??
 							
 						</p>
 
@@ -216,7 +221,23 @@
 		            <div class="grid__row">
                 		    <div class="grid__column-3">
 									<div class="portitem">
-  										<img src="img/koala.JPG" alt="logo buidelbeer">
+
+										<!-- Trigger the Modal -->
+										<img id="myImg" src="img/koala.jpg" alt="koala logo" width="300" height="300">
+
+										<!-- The Modal -->
+									<div id="myModal" class="modal">
+
+										  <!-- The Close Button -->
+  									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+										  <!-- Modal Content (The Image) -->
+									  <img class="modal-content" id="img01">
+
+										  <!-- Modal Caption (Image Text) -->
+  									<div id="caption"><p>buidelbeer</p></div>
+										</div>
+  									
 									</div>	
 								</div>
 							
