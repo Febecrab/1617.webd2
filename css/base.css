@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	font-family: "bungee hairline",sans-serif;
+	 
+}
+
+body a {
+	text-decoration: none;
+	color: white;
+}
+
+.grid__column-12,
+.grid__column-11,
+.grid__column-10,
+.grid__column-9,
+.grid__column-8,
+.grid__column-7,
+.grid__column-6,
+.grid__column-5,
+.grid__column-4,
+.grid__column-3,
+.grid__column-2,
+.grid__column-1 {
+    background-color: transparent;
+}
+
+.grid__column-4{
+	background-color: transparent;
+}
+
+.grid__column-3 {
+		font-size: 2em;
+}
+
+ h1 {
+	padding-top:90px;
+ }
+
+.cirkel {
+	text-align: center; 
+	padding: 53px;
+	border: 3px solid white;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px; 	
+}
+
+
+
+#main-navigation {
+	font-family: "bungee",sans-serif;
+	
+}
+#klik {
+	text-align: center;
+	position:relative; top: 30px;
+	padding-bottom: 200px;
+	padding-top: 30px;
+}
+
+#creator {
+	padding-bottom: 100px;
+}
+
+#adres {
+	border: 3px solid white;
+    border-radius: 100px;
+    margin-right: 728px;
+    padding: 36px;
+    width: 254px;
+    height: 164px;
+	text-align: center; 
+	position:relative; left: 1010px; bottom: 250px;
+}
+
+#nr{
+	border: 3px solid white;
+    border-radius: 100px;
+    margin-right: 728px;
+    padding: 24px;
+    width: 288px;
+    height: 181px;
+    text-align: center;
+	position: relative; left: 870px;bottom: 600px;
+}
+
+#email {
+	border: 3px solid white;
+    border-radius: 100px;
+    margin-right: 728px;
+    padding: 17px;
+    width: 361px;
+    height: 90px;
+	text-align: center; 
+	position: relative; left: 700px; bottom: 630px;
+}
+
+#overons {
+	position: relative; top:100px;right:45px;
+}
+
+#filos {
+	text-align: center;
+	
+}
+
+.portitem img {
+	width: 120%;
+}
+
+.porttitel{
+	position:relative; left:100px;
+}
+
+.portitem1 img {
+	width: 120%;
+}
+
+#camp  {
+	position: relative; left: 360px;
+}
+
+#dru {
+	position: relative; left: 500px;
+}
+
+
+h3 {
+	position:relative; left: 180px;
+}
+
+#groepsfoto img {
+	width: 100%;
+	position:relative; left:50px;
+}
+
+.teamlid img {
+	width:100%;
+}
+
+#irja img{
+	position:relative; left: 230px;
+}
+
+#laura img {
+	position: relative; left: 250px;
+}
+
+.social img {
+	width:50%;
+	position:relative; bottom:150px;
+}
+
+
+
+
+
