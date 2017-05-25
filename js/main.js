@@ -1,6 +1,4 @@
-;(function() {
-  alert('Welcome to the GDM Web Template developed by drdynscript!');
-})();
+
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};

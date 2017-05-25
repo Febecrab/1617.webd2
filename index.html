@@ -51,6 +51,7 @@
 	<link rel="stylesheet" media="all" href="css/base.css">
 	<link rel="stylesheet" media="all" href="css/nav.css">
 	<link rel="stylesheet" media="all" href="css/helpers.css">
+	<link rel="stylesheet" media="all" href="js/main.js">
 
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
@@ -110,13 +111,13 @@
 <!-- logo homepage en call to action buttom  -->
     
 	            <div class="grid__row">
-					<div class="grid__column-6">
-						<div class="header"> <img src="images/homepage.JPG">  </div>
+					<div class="grid__column-12">
+						<div class="header" id="creator"> <img src="images/homepage.JPG">  </div>
 					</div>
 				</div>
 
 				<div class="grid__row">
-					<div class="grid__column-6">
+					<div class="grid__column-12">
 						<div class="header">  
 							<a href="#diensten"> <img src="images/cta.JPG"> </a> 
 						</div>
@@ -126,7 +127,11 @@
 <!-- pagina 1: diensten  -->
 
 	<!-- knop om terug naar home te gaan -->
-		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<div class="grid__row">
+		<div class="grid__column-12">
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		</div>
+	</div>
 
 			<div class="grid__row">
 				<h1 id="diensten">Onze diensten</h1>

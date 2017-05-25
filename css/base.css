@@ -38,12 +38,16 @@ body a {
 }
 
  h1 {
-	padding-top:90px;
+	padding-top:110px;
  }
 
  .header img {
 	 width: 100%;
  }
+
+#creator img {
+	padding-bottom: 17px;
+}
 
  #myBtn {
     display: none; /* Hidden by default */
@@ -53,7 +57,7 @@ body a {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: white; /* Set a background color */
+    background-color: red; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
