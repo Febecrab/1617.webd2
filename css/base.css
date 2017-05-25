@@ -270,13 +270,22 @@ container {
 /* footer */
 
 .footer {
-    background-color: slategray;
+    background-color:transparent;
     color:white;
-    width: 100%;
+    width: 90%;
+    padding:30px;
 }
 
 #opsomming {
     text-decoration: none;
+}
+
+ #ul {
+     list-style: none;
+ }
+
+#hidden {
+    
 }
 
 
@@ -300,5 +309,6 @@ container {
 #myBtn:hover {
   background-color: #555;
 }
+
 
 
