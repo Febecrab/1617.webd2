@@ -38,7 +38,7 @@ body a {
 }
 
  h1 {
-	padding-top:90px;
+	padding-top:10px;
  }
 
  .header img {
@@ -47,6 +47,10 @@ body a {
 
 #creator img {
 	padding-bottom: 17px;
+}
+
+#cta img {
+	padding-bottom: 90px;
 }
 
  #myBtn {
@@ -83,10 +87,15 @@ body a {
 	font-family: "bungee",sans-serif;
 	
 }
+
+#filo {
+	padding-top: 90px;
+}
+
 #klik {
 	text-align: center;
 	position:relative; top: 30px;
-	padding-bottom: 200px;
+	padding-bottom: 10px;
 	padding-top: 30px;
 }
 
@@ -131,8 +140,9 @@ body a {
 
 #filos {
 	text-align: center;
-	
 }
+
+
 
 .portitem img {
 	width: 120%;
@@ -176,11 +186,66 @@ h3 {
 	position: relative; left: 250px;
 }
 
-.social img {
-	width:50%;
-	position:relative; bottom:150px;
+
+
+#youtube img {
+	position:relative;
+	bottom:1200px;
+	left:1200px;
 }
 
+#facebook {
+	position:relative;
+	bottom:1250px;
+	left:1200px;
+}
+
+#pinterest {
+	position:relative;
+	bottom:1147px;
+	left:1055px;
+
+}
+
+#twitter {
+
+	position:relative;
+	bottom:1044px;
+	left:910px;
+	
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:grey;
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:dimgray;
+}
+
+.formulier {
+    border-radius: 5px;
+    background-color:black;
+    padding: 20px;
+}
 
 
 
